@@ -5,7 +5,7 @@
 <!-- Joe Nartca (C) -->
 <AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" 
           minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="380.0" 
-          xmlns:fx="https://congdongjava.com/forum/" fx:controller="fxmlFrameController">
+          xmlns:fx="https://github.com/" fx:controller="fxmlFrameController">
 <!--                  commentized
   <HBox  layoutX="10" layoutY="5"  prefHeight="200.0" prefWidth="380.0">
     <Label fx:id="Lab1" text = "Please click" prefHeight="50.0" prefWidth="100.0" />
