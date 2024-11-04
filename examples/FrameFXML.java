@@ -8,8 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-//import javafx.geometry.Insets;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class FrameFXML extends Application {
   public void start(Stage stage) throws Exception {
     FXMLLoader fxml = new FXMLLoader(getClass().getResource("frame.fxml"));

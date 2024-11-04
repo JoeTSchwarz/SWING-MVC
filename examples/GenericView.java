@@ -1,6 +1,6 @@
 import javax.swing.*;
 import joeapp.mvc.SWINGLoader;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class GenericView {
   public GenericView(String[] p) throws Exception {
     SWINGLoader ml = new SWINGLoader(p[0], p[1]);

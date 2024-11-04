@@ -2,7 +2,7 @@ import java.awt.*;
 import java.util.*;
 import javax.swing.*;
 import java.awt.event.*;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class DialogController {
   public DialogController(HashMap<String, Object> map) {
     // get JButton, JTextField and JTextArea

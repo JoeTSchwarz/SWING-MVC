@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 //
 import joeapp.mvc.SWINGLoader;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class DirectController {
   public DirectController(HashMap<String, Object> map) {
     // get JButton, JTextField and JTextArea

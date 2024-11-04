@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 //
 import joeapp.mvc.SWINGLoader;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class DirectMVC {
   public DirectMVC(String fName) throws Exception {
     SWINGLoader ml = new SWINGLoader(fName);

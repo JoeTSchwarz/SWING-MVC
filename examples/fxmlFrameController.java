@@ -6,7 +6,7 @@ import javafx.scene.layout.*;
 import javafx.geometry.Insets;
 //
 import javafx.fxml.FXML;
-// Joe Nartca (c) 
+// Joe T. Schwarz (c) 
 public class fxmlFrameController  {
     @FXML 
     Button But1;

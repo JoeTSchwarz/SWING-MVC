@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 //
 import joeapp.mvc.*;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class FrameController {
   public FrameController(HashMap<String, Object> map) {
     // get JButton, JTextField and JTextArea

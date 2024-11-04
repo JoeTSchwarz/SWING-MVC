@@ -3,7 +3,7 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import joeapp.mvc.*;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class GenericController {
   public GenericController(HashMap<String, Object> map) {
     // get JButton, JTextField and JTextArea

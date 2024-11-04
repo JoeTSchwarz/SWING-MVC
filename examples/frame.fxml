@@ -2,7 +2,7 @@
 <?import java.net.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
-<!-- Joe Nartca (C) -->
+<!-- Joe T. Schwarz (C) -->
 <AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" 
           minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="380.0" 
           xmlns:fx="https://github.com/" fx:controller="fxmlFrameController">

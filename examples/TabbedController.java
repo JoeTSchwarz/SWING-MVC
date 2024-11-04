@@ -5,7 +5,7 @@ import java.awt.event.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 //
 import joeapp.mvc.*;
-// Joe Nartca (C)
+// Joe T. Schwarz (C)
 public class TabbedController {
   public TabbedController(HashMap<String, Object> map) {
     JPanel jp = (JPanel) map.get("Pane3");
