@@ -12,7 +12,7 @@ public class ProtoTyping {
   @exception Exception Java Exceptions thrown by Java
   */
   public ProtoTyping( ) throws Exception {
-    SWINGLoader ml = new SWINGLoader("resources/_prototype_.txt", "joeapp.mvc.ProtoController");
+    SWINGLoader ml = new SWINGLoader("resources/prototype.txt", "joeapp.mvc.ProtoController");
     ((JFrame) ml.load()).setVisible(true);
   }
   private static String[] parms;

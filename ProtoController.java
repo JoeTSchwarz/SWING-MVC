@@ -55,7 +55,7 @@ public class ProtoController implements DocumentListener, ActionListener, MenuKe
     HashMap<String, String> keys = new HashMap<>();
     try { // load templates
       String els[] = new String(SWING.loadFile(System.getProperty("user.dir"),
-                                               "resources/_templates_.txt",
+                                               "resources/templates.txt",
                                                ProtoController.class)
                                               ).
                      replace("\r", "").
@@ -64,7 +64,7 @@ public class ProtoController implements DocumentListener, ActionListener, MenuKe
         keys.put(s.substring(1,s.indexOf(">")), s);
       }
     } catch (Exception ex) {
-      JOptionPane.showMessageDialog(frame, "Missing _templates_.txt file", 
+      JOptionPane.showMessageDialog(frame, "Missing templates.txt file", 
                                     "Error", JOptionPane.ERROR_MESSAGE);
       System.exit(0);
     }
