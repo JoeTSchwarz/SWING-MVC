@@ -1,0 +1,2 @@
+<dialog>name=MyDialog load=diPanel.txt size=500,500 location=0,0 close=false bgimage=model/RicePaddy.jpg </dialog>
+

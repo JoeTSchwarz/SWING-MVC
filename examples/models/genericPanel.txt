@@ -1,0 +1,30 @@
+<panel> name=pan size=500,600 location=200,0</panel>
+<!-- label and button --!>
+<label>name=Lab1 text="Please click", size=100,12 location=10,25</label>
+<button>name=But1 text="MVCbutton" size=100,50 location=90,5 color=yellow</button>
+<progressbar>name=pBar size=180,30 location=195,15 minmax=0,100 orient=horizontal</progressbar>
+<!-- label and textfield --!>
+<label>name=Lab2 text="Name:", size=100,12 location=10,75</label>
+<textfield>name=TxtF1 text="Your Name" size=250,30 location=90,65 color=yellow</textfield>
+<!-- label and textarea --!>
+<label>name=Lab3 text="ReportArea", size=100,12 location=10,100</label>
+<textarea>name=TxtA1 text="No Report" size=360,200 location=10,120 scroll=true</textarea>
+<!-- label, combobox --!>
+<label>name=Lab4 text="Make a choice", size=100,12 location=10,330</label>
+<combobox>name=cBox items="Apple","Orange","Banana","Guava" size=200,30 location=100,320</combobox>
+<!--<combobox>name=cBox items=model/icons.txt size=200,30 location=100,320</combobox> --!>
+<!-- label, 3 checkboxes --!>
+<label>name=Lab5 text="Make a check", size=100,12 location=10,360</label>
+<checkbox>name=kBox1 text="Ripe" color=red selected=true size=50,30 location=100,352</checkbox>
+<checkbox>name=kBox2 text="Green" color=green size=60,30 location=160,352</checkbox>
+<checkbox>name=kBox3 text="Never mind" color=yellow size=100,30 location=235,352</checkbox>
+<!-- label and radiobutton and togglebutton --!>
+<label>name=Lab6 text="Please push", size=100,12 location=10,395</label>
+<radiobutton>name=Radio1 text="push" size=100,50 location=100,375 color=red</radiobutton>
+<togglebutton>name=toggle1 text="Toggle" size=100,40 location=160,380 color=red</togglebutton>
+<!--<list>name=jlist items="Apple","Orange","Banana","Guava" color=green size=80,90 location=10,425</list> --!>
+<list>name=jlist items=model/icons.txt color=green size=80,90 location=10,425</list>
+<!--<tree>name=jTree size=90,95 location=100,425 color=cyan nodes=model/fruits.txt</tree> --!>
+<tree>name=jTree size=90,95 location=100,425 color=cyan nodes="Apple","Orange","Banana"</tree>
+<!--<table>name=jTable size=170,95 location=200,425 table=model/table.txt color=lightgray</table> --!>
+<table>name=jTable size=170,95 location=200,425 table=model/tableX.txt color=lightgray</table>

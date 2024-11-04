@@ -1,0 +1,5 @@
+<!-- the viewing frame with embedded JPanel from panel model --!>
+<frame> name=Embedded title="MVC with JFrame -embedded JPanel-" size=800,600 location=20,20 
+        bgimage=model/RicePaddy.jpg close=true resize=false</frame>
+<panel>name=EmbeddedJPanel file=panel.txt size=400,600 location=400,0</panel>
+<!-- end of frame --!>

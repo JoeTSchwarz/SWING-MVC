@@ -1,0 +1,11 @@
+<!-- panel for tab2 --!>
+<panel> name=Panel_2 size=400,500 location=200,20 </panel>
+<label>name=Lab4 text="Please click", size=100,12 location=10,25</label>
+<button>name=But2 text="MVCbutton" size=100,50 location=90,5 color=yellow</button>
+<label>name=Lab5 text="Name:", size=100,12 location=10,75</label>
+<textfield>name=TxtF2 text="Your Name" size=250,30 location=90,65 color=yellow</textfield>
+<label>name=Lab6 text="ReportArea", size=100,12 location=10,100</label>
+<textarea>name=TxtA2 text="No Report" size=360,200 location=10,120 scroll=true</textarea>
+<label>name=Lab7 text="Make a choice", size=100,12 location=10,330</label>
+<combobox>name=cBox items="Apple","Orange","Banana","Guava" size=200,30 location=100,320</combobox>
+<!-- end of pane1 --!>

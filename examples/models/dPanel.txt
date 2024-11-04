@@ -1,0 +1,12 @@
+<!-- panel for Dialog --!>
+<panel> name=Pane1 size=400,400 location=40,25 </panel>
+<label>name=Lab1 text="Please click", size=100,12 location=10,25</label>
+<button>name=But text="MVCbutton" size=100,50 location=90,5 color=yellow</button>
+<label>name=Lab2 text="Name:", size=100,12 location=10,75</label>
+<textfield>name=TxtF text="Your Name" size=250,30 location=90,65 color=yellow</textfield>
+<label>name=Lab3 text="ReportArea", size=100,12 location=10,100</label>
+<textarea>name=TxtA text="No Report" size=360,200 location=10,120 scroll=true</textarea>
+<label>name=Lab4 text="Make a choice", size=100,12 location=10,330</label>
+<combobox>name=cBox items="Apple","Orange","Banana","Guava" size=200,30 location=100,320</combobox>
+<!-- end of pane1 --!>
+

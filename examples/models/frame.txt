@@ -1,0 +1,26 @@
+<!-- the viewing frame --!>
+<frame>name=Jframe title="MVC with JFrame" size=400,710 bgimage=model/AIman.jpg location=200,0 
+        close=true resize=false</frame>
+<!-- label and button --!>
+<label>name=Lab1 text="Please click", size=100,12 location=10,25</label>
+<button>name=But1 text="MVCbutton" size=100,50 location=90,5 color=yellow</button>
+<!-- label and textfield --!>
+<label>name=Lab2 text="Name:", size=100,12 location=10,75</label>
+<textfield>name=TxtF1 text="Your Name" size=250,30 location=90,65 color=yellow</textfield>
+<!-- label and textarea --!>
+<label>name=Lab3 text="This is an IT man in Background", size=200,14 location=56,188</label>
+<label>name=Lab4 text="ReportArea", size=100,14 location=150,460</label>
+<textarea>name=TxtA1 text="No Report" size=350,180 location=15,480 scroll=true edit=false</textarea>
+<!-- end of frame --!>
+
+
+
+
+
+
+
+
+
+
+
+

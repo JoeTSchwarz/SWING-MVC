@@ -1,0 +1,7 @@
+<!-- the viewing frame with JTabbedPane from panel model --!>
+<frame> name=Jtabs tittle="MVC with JTabbedPane, JPanel and JTree" size=500,500 location=20,20 
+        bgimage=model/RicePaddy.jpg close=true resize=false</frame>
+<tabbedpane>name=Tabbed tabs=model/tab1.txt,model/tab2.txt,model/tab3.txt tabtext="Tabbed_1","Tabbed_2","Tabbed_3"
+        size=400,400 location=40,15</tabbedpane>
+<!-- end of frame --!>
+

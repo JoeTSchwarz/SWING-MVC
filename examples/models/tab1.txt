@@ -1,0 +1,7 @@
+<!-- panel for tab1 --!>
+<panel> name=Pane1_1 size=400,500 location=200,20 </panel>
+<menubar>name=menubar size=400,20 location=0,0 file=model/menu.txt</menubar>
+<tree>name=jTree nodes=model/tree.txt size=300,300 location=50,25 color=cyan</tree>
+<label>name=Lab1 text="Your Selection:-", size=300,12 location=50,330</label>
+<!-- end of pane1 --!>
+

@@ -1,0 +1,6 @@
+<!-- the viewing frame with embedded JDialog --!>
+<frame> name=MyFrame title="MVC with JDialog" size=600,600 location=20,20 
+        close=true resize=false</frame>
+<button>name=Start text="Start Dialog" size=100,100 location=230,230 color=yellow</button>
+<dialog>name=MyDialog load=model/dPanel.txt size=500,500 location=0,0 bgimage=model/RicePaddy.jpg </dialog>
+<!-- end of frame --!>

@@ -1,0 +1,10 @@
+<!-- the viewing frame --!>
+<frame>name=Jframe title="MVC with JFrame" size=500,600 location=200,0 close=true resize=false</frame>
+<button>name=But text="Start JFX-SystemMonitoring" size=200,50 location=150,5 color=yellow</button>
+<!--------------------------JFXPanel------------------------------------------- --!>
+<fxpanel>name=jfx size=500,550 location=0,60 </fxpanel>
+<!-- end of frame --!>
+
+
+
+

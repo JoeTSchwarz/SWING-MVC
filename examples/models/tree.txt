@@ -1,0 +1,11 @@
+<Earth:+:Fruits,Species,Trees/>
+<!-- Fruits: No level --!>
+<!-- <Fruits:-:Orange,Banana,Pineapple,lemon/>  --!>
+<Fruits:-:smiling@model/smiling.gif,surprise@model/surprise.gif,thumbup@model/thumbUp.gif/>
+<Species:+:Carnivores, Herbivores/>
+<Carnivores:+:Birds,Animals,Fishes/>
+<Birds:-:Eagle,Hawk,Owl/>
+<Animals:-:Lion,Tiger,Hyena/>
+<Fishes:-:Shark,Ocra,Piranha/>
+<Herbivores:-:Deer,Horse,Elephant/>
+<Trees:-:Fir,Maple,sycamore/>

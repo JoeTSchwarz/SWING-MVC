@@ -1,0 +1,2 @@
+<panel>name="SystemMonitor" size=680,500 location=0,0</panel>
+<SysMonSWING> name=sysmon size=500,500 location=80,7 </SysMonSWING>

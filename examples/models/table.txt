@@ -1,0 +1,5 @@
+<Birds,Animals,Fish/>
+<Macaw,Dog,Salmon/>
+<Sparrow,Cat,Tuna/>
+<Eagle,Horse,Piranha/>
+<Hawk,Goat,Shark/>

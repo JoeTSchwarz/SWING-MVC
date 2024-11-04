@@ -1,0 +1,7 @@
+<!-- panel for tab3 --!>
+<panel> name=Panel_3 size=400,500 location=200,20 </panel>
+<popupmenu>name=Popup text="popup" size=120,80 location= 20,20 file=model/popup.txt</popupmenu>
+<editorpane>name=MyEditor content=plain text=model/editorpane.txt  size=300,300 location=50,30 </editorpane>
+<!--<editorpane>name=MyEditor content=plain text=https://docs.oracle.com/javase/9/docs/api/javax/swing/JEditorPane.html
+              size=300,300 location=50,30 </editorpane> --!>
+<!-- end of pane1 --!>

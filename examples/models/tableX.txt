@@ -1,0 +1,5 @@
+<Birds,Animals,Fish/>
+<smiling@model/smiling.gif,surprise@model/surprise.gif,thumpup@model/thumbUp.gif/>
+<Macaw,Dog,Salmon/>
+<Sparrow,Cat,Tuna/>
+

@@ -1,0 +1,2 @@
+<menu:File,VK_F,item:Open,VK_O,item:Print,VK_P,item:Copy,VK_C/>
+<menu:Help,VK_H,checkbox:About,VK_A,item:Search,VK_S/>
