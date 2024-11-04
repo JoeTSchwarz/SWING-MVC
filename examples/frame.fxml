@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<!-- Joe Nartca (C) -->
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" 
+          minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="380.0" 
+          xmlns:fx="https://congdongjava.com/forum/" fx:controller="fxmlFrameController">
+<!--                  commentized
+  <HBox  layoutX="10" layoutY="5"  prefHeight="200.0" prefWidth="380.0">
+    <Label fx:id="Lab1" text = "Please click" prefHeight="50.0" prefWidth="100.0" />
+    <Button fx:id="But1" onAction="#click" text="JFXButton" prefHeight="50.0" prefWidth="100.0" />
+  </HBox>
+-->
+  <Label fx:id="Lab1" text = "Please click" prefHeight="50.0" prefWidth="100.0"
+         layoutX="10" layoutY="5" />
+  <Button fx:id="But1" onAction="#click" text="JFXButton" prefHeight="50.0" prefWidth="100.0" 
+         layoutX="90" layoutY="5" />
+  <Label fx:id="Lab2" text = "Name:" prefHeight="30.0" prefWidth="100.0"
+         layoutX="10" layoutY="65" />
+  <TextField fx:id="TxtF1" prefWidth="250" prefHeight="30.0" onAction="#read"
+         layoutX="90" layoutY="65" />
+  <Label text = "This is an IT man in Background" prefHeight="14.0" prefWidth="200.0"
+         layoutX="56" layoutY="195" />
+  <Label fx:id="Lab4" text = "ReportArea" prefHeight="14.0" prefWidth="100.0"
+         layoutX="150" layoutY="460" />
+  <TextArea fx:id="TxtA1" prefHeight="165.0" prefWidth="350.0"
+         layoutX="15" layoutY="490" />
+          
+   <stylesheets>
+       <URL value="@frame.css" />
+   </stylesheets>
+
+</AnchorPane>
+

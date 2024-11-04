@@ -1,0 +1,14 @@
+/* frame.css */
+.root {
+    -fx-background-image:url("file:/C:/joeapp/mvc/example/model/AIman.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+.button {
+/*  -fx-background-color: yellow; */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0 , 0 , 1 );
+}
+.text-field {
+    -fx-background-color: yellow;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0 , 0 , 1 );
+}
