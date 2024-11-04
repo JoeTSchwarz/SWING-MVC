@@ -1,0 +1,27 @@
+<frame> name=frame title="ProtoTyping with SWINGLoader" size=900,720 location=10,10 
+        close=true resize=false</frame>
+<menubar>name=menubar size=862,20 location=10,5 file=resources/Menu.txt</menubar>
+<button>name=new text=New size=150,45 location=20,80 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/new.png</button>
+<button>name=load text=Load size=150,45 location=20,130 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/load.png</button>
+<button>name=save text=Save size=150,45 location=20,180 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/save.png</button>
+<button>name=search text=Search size=150,45 location=20,230 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/search.png</button>
+<button>name=replace text=Replace size=150,45 location=20,280 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/replace.png</button>
+<button>name=check text=Check size=150,45 location=20,330 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/check.png</button>
+<button>name=show text=Show size=150,45 location=20,380 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/show.png</button>
+<button>name=undo text=Undo size=150,45 location=20,430 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/undo.png</button>
+<button>name=redo text=Redo size=150,45 location=20,480 font=Verdana
+        fontType=BOLD fontSize=14 icon=icons/redo.png</button>
+<button>name=clear text=Clear size=150,45 location=20,530 textColor=red
+        font=Verdana fontType=BOLD fontSize=14 icon=icons/clear.png</button>
+<combobox>name=cBox items=resources/protolist.txt size=150,45 location=20,580
+        font=Verdana fontType=BOLD fontSize=12</combobox>
+<tabbedpane>name=tabbed size=685,630 location=180,30 tabs=resources/table.txt tabtext="New_Model"
+        color=gray</tabbedpane>

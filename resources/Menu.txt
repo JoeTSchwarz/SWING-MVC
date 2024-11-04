@@ -1,0 +1,2 @@
+<menu:New,VK_N,item:Load,VK_L,item:Save,VK_S/>
+<menu:Process,VK_P,item:Find,VK_F,item:Replace,VK_R/>

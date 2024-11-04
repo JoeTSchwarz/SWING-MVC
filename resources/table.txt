@@ -1,0 +1,1 @@
+<textpane>name=area color=gray size=685,600 location=0,0</textpane>

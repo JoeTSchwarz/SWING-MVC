@@ -1,0 +1,27 @@
+<frame>name=anyName title=anyTitle size=w,h location=x,y resize=false close=false bgimage=imgFile</frame>
+<panel>name=name size=w,h location=x,y opaque=true/false color=anyColor</panel>
+<panel>name=anyName file=modelFile.txt size=w,h location=x,y opaque=true/false color=anyColor</panel>
+<dialog>name=anyName title=anyTitle load=panel.txt size=w,h location=x,y close=false</dialog>
+<tabbedpane>name=name tabs=panel_1.txt,...,panel_X.txt tabtext=text_1,...,text_X size=w,h location=x,y place=top/bottom/right/left policy=scroll/wrap</tabbedpane>
+<button>name=anyName text=anyText size=w,h location=x,y icon=imageFile color=anyColor textColor=anyColor font=Arial fontType=PLAIN fontSize=s</button>
+<radiobutton>name=anyName text=anyText size=w,h location=x,y icon=imgFile color=anyColor textColor=anyColor</radiobutton>
+<togglebutton>name=anyName text=anyText size=w,h location=x,y icon=imageFile color=anyColor textColor=anyColor</togglebutton>
+<label>name=anyName text=anyText size=w,h location=x,y icon=fName opaque=true color=anyColor textColor=anyColor font=Arial fontType=PLAIN fontSize=s</label>
+<textfield>name=anyName text=anyText size=w,h location=x,y column=n color=anyColor textColor=anyColor font=Arial fontType=PLAIN fontSize=s</textfield>
+<formattedtextfield>name=name text=anyText size=w,h location=x,y column=n color=anyColor textColor=anyColor</formattedtextfield>
+<passwordfield>name=name text=anyText size=w,h location=x,y column=n color=anyColor textColor=anyColor</passwordfield>
+<textarea>name=anyName text=anyText size=w,h location=x,y edit=false row=n column=n color=anyColor textColor=anyColor font=Arial fontType=PLAIN fontSize=s</textarea>
+<textpane>name=anyName content=plain/html size=w,h location=x,y text=text.txt color=anyColor textColor=anyColor</textpane>
+<editorpane>name=anyName content=plain/html size=w,h location=x,y text=text.txt color=anyColor textColor=anyColor</editorpane>
+<list>name="name" items=string_1,..,string_x color=anyColor size=w.h location=x,y</list>
+<list>name="name" items=file.txt color=anyColor size=w.h location=x,y</list>
+<combobox>name=anyName items=string1,..,stringX color=anyColor textColor=anyColor size=w.h location=x,y font=Arial fontType=PLAIN fontSize=s</combobox>
+<checkbox>name=anyName text=anyText icon=imagefile selicon=imagefile disicon=imagefile selected=true color=anyColor textColor=anyColor size=w,h location=x,y</checkbox>
+<progressbar>name=anyName size=w,h location=x,y minmax=a,b orient=vertical/horizontal</progressbar>
+<slider>name=anyName size=w,h location=x,y minmax=a,b orient=vertical/horizontal paintTicks=tre/false paintLabels=true/false</slider>
+<table>name=anyName size=w,h location=x,y roco=n,m color=anyColor textColor=anyColor table=table.txt</table>
+<tree>name=anyName nodes=tree.txt size=w.h location=x,y color=anyColor textColor=anyColor</tree>
+<fxpanel>name=anyName size=w,h location=x,y</fxpanel>
+<menubar>name=anyName size=w,h location=x,y file=menu.txt</menubar>
+<popupmenu>name=anyName text=anyText size=w,h location=x,y file=items.txt</popupmenu>
+<toolbar>name=anyName text=anyText orientation=horizontal size=w,h location=x,y </toolbar>
